@@ -1,0 +1,59 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color: #f9f9f9; /* Couleur de fond claire */
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #2e7d32; /* Vert foncé pour les titres */
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Styles du bouton */
+.btn-blue {
+  background-color: #4caf50; /* Vert clair */
+  color: white; /* Texte blanc */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: #388e3c; /* Couleur légèrement plus foncée au survol */
+}
+.btn-newsletter {
+  background-color: #4caf50; /* Même couleur que le bouton précédent */
+  color: white; /* Texte blanc */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute; /* Position absolue pour le placer en haut à droite */
+  right: 20px; /* Décalage de 20 pixels depuis la droite */
+  top: 20px; /* Décalage de 20 pixels depuis le haut */
+}
+
+.btn-newsletter:hover {
+  background-color: #388e3c; /* Couleur légèrement plus foncée au survol */
+}
+
+.container {
+  position: relative; /* Nécessaire pour positionner le bouton en absolu */
+}

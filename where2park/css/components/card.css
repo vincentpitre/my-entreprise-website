@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #c8e6c9; /* Bordure verte claire */
+  border-radius: 8px;
+  background-color: #ffffff; /* Fond blanc pour les cartes */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 24px;
+  color: #2e7d32; /* Vert foncé pour les titres des cartes */
+}
+
+.card p {
+  font-size: 16px;
+  color: #666; /* Couleur gris clair pour le texte des adresses */
+}
+
+.card img {
+  width: 150px;
+  border-radius: 4px;
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 24px;
+  color: #333;
+}
